@@ -1,0 +1,22 @@
+image coordinates
+
+? The first argument is for the image. 
+? The second and third arguments are for the position. Here we have translated the position to where we want it to be. So we can use 0, 0. 
+? The fourth and fifth are for the width and height. 
+
+Let's create a new file and name it Baseclass. 
+ 
+Our Base object can have all the properties and functions which we had in the Bird class. 
+ 
+We can choose any placeholder image for the Baseclass. 
+
+ So, these classes can become the child class for this parent Baseclass and inherit all the properties and functions.  
+ 
+As per our previous example, we do have common features of our parents, and we also have our own feature, right? 
+
+Similarly, all the child classes have their own properties. We can also add custom images of that child class. Let's change the child Birdclass, which inherits all the properties and functions of our Baseclass. 
+
+The ?super keyword? is used to call the parent class's constructor and access the parent's properties and methods. 
+ 
+We can solve this problem with the concept of overriding.
+When a method in a subclass has the same name, same parameters or signature, and same return type(or sub-type) as a method in its super-class, then the method in the subclass is said to override the method in the super-class. 
